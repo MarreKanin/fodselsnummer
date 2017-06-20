@@ -1,3 +1,78 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  overflow: hidden; }
 
+.coverpic {
+  background-image: url(../img/ppl.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  width: 110vw;
+  position: absolute;
+  top: -3vh;
+  left: -5vw;
+  filter: blur(10px); }
 
-/*# sourceMappingURL=style.css.map */
+.coveroverlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  background-blend-mode: darken;
+  opacity: 0.5; }
+
+form {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.errormessage, .input {
+  display: inline-block;
+  margin: 20px; }
+
+label {
+  display: block;
+  margin: 20px 0px;
+  font-size: 20px;
+  display: inline-block;
+  background-color: #E4F1FE;
+  padding: 4px 10px; }
+
+.fnrlabel {
+  background-color: #BDC3C7; }
+
+.checkfnr {
+  background-color: #E4F1FE;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer; }
+  .checkfnr:hover {
+    background-color: #BDC3C7; }
+
+.errormessage {
+  height: 100px;
+  position: absolute;
+  background-color: #E4F1FE; }
+
+input {
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  height: 40px;
+  border: 2px solid transparent;
+  transition: 0.3s all ease-in-out; }
+  input:focus {
+    outline: none;
+    border: 2px solid black;
+    background-color: #F2F1EF;
+    transition: 0.3s all ease-in-out; }
+  input:disabled {
+    color: #34495E; }
+
+.fnrinput {
+  background-color: #BDC3C7;
+  border: 2px solid transparent; }

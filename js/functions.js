@@ -43,3 +43,13 @@ function validateBirthID(){
   document.getElementById('message').innerHTML = "Ikke riktig"
   }
 }
+
+//Sjekker om D-nummer eller vanlig fnrlabel
+function validateFnrtype(){
+  if (value.startsWith(0 && 1 && 2 && 3)) {
+    console.log("Dette er et vanlig fødselsnummer")
+  }
+  if (value.startsWith(4 && 5 && 6 && 7)) {
+    console.log("Dette er et D-nummer")
+  }
+}

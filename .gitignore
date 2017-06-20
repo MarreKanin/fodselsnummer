@@ -1,2 +1,6 @@
 .sass-cache/
 *.css.map
+*.codekit3
+*.pug
+*.sass
+css/*.sass

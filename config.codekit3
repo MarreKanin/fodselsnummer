@@ -77,6 +77,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/style.css.map",
+		"oF": 0
+		},
 	"\/css\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -89,6 +95,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/img\/ppl.jpg": {
+		"ft": 16384,
+		"iS": 228729,
+		"oA": 0,
+		"oAP": "\/img\/ppl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,

@@ -1,16 +1,25 @@
 doctype html
 html
   head
-    title marre-webstart
+    title Fødselsnummer
     meta(charset='utf-8')
     link(href='css/style.css', rel='stylesheet')
     //- link(rel='shortcut icon', href='favicon.png', type='image/x-icon')
     meta(name='viewport', content='width=device-width, initial-scale=1')
   body
-    label Fødselsnummer:
-    input(id="fnrinput")
-    button(onclick="validateBirthID()") Sjekk FNR
-    #message
+    .coverpic
+    .coveroverlay
+    form
+      .input
+        label.fnrlabel Fødselsnummer:
+        br
+        input(id="fnrinput").fnrinput
+        br
+      br
+      .checkfnr(onclick="validateBirthID()") Sjekk FNR
+      br
+      .errormessage
+        #message
     script(src='https://code.jquery.com/jquery-3.1.1.min.js')
     script(src='js/functions.js')
 
